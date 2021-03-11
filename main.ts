@@ -1,5 +1,5 @@
 function 遊戲介紹 () {
-    basic.showString("In this RPG game, whether it is level, attack, experience, it is infinitely accumulated, so don't be too addicted to this game product")
+    basic.showString("This is a two player game")
 }
 function 敵方攻擊 () {
     if (我方生命 <= 1) {
