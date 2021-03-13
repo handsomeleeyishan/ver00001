@@ -102,3 +102,11 @@ basic.forever(function () {
         重置()
     }
 })
+control.inBackground(function () {
+    music.playMelody("A A A A C5 C5 C5 C5 ", 120)
+    music.playMelody("B B B B E E E E ", 120)
+    music.playMelody("F F F F F F F F ", 120)
+    music.playMelody("F F F F B A G E ", 120)
+    music.playMelody("F F C5 B A G G G ", 120)
+    music.playMelody("B A G F - - - - ", 120)
+})
