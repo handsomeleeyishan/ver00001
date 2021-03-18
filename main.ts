@@ -103,10 +103,10 @@ basic.forever(function () {
     }
 })
 control.inBackground(function () {
-    music.playMelody("A A A A C5 C5 C5 C5 ", 120)
-    music.playMelody("B B B B E E E E ", 120)
-    music.playMelody("F F F F F F F F ", 120)
-    music.playMelody("F F F F B A G E ", 120)
-    music.playMelody("F F C5 B A G G G ", 120)
-    music.playMelody("B A G F - - - - ", 120)
+    music.playTone(349, music.beat(BeatFraction.Double))
+    music.playTone(440, music.beat(BeatFraction.Double))
+    music.playTone(392, music.beat(BeatFraction.Double))
+    music.playTone(523, music.beat(BeatFraction.Double))
+    music.playTone(587, music.beat(BeatFraction.Breve))
+    music.playTone(587, music.beat(BeatFraction.Double))
 })
