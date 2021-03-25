@@ -50,7 +50,6 @@ function 我方攻擊 () {
                 `)
             music.playMelody("C5 C5 C5 C5 C5 C D C ", 333)
         }
-        basic.showString("P1.LV." + ("" + 我方等級))
     } else {
         敵方生命 += 我方攻擊力 - 我方攻擊力 - 我方攻擊力
         for (let index = 0; index < 3; index++) {
