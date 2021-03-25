@@ -8,17 +8,6 @@ function 敵方攻擊 () {
         我方生命 = 我方生命 * 我方等級
         敵方生命 = 敵方生命 * 敵方等級
         敵方攻擊力 = 敵方等級
-        for (let index = 0; index < 3; index++) {
-            basic.showLeds(`
-                . . . . .
-                # . . . .
-                # # . . #
-                # . . . .
-                . . . . .
-                `)
-            music.playMelody("C5 C5 C5 C5 C5 C D C ", 333)
-        }
-        basic.showString("P2.LV" + ("" + 敵方等級))
     } else {
         我方生命 += 敵方攻擊力 - 敵方攻擊力 - 敵方攻擊力
         for (let index = 0; index < 3; index++) {
