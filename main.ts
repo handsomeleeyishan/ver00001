@@ -85,11 +85,7 @@ let 敵方等級 = 0
 let 敵方攻擊力 = 0
 let 我方生命 = 0
 重置()
-if (input.pinIsPressed(TouchPin.P0)) {
-    basic.showString("skip")
-} else {
-    遊戲介紹()
-}
+遊戲介紹()
 basic.forever(function () {
     if (input.buttonIsPressed(Button.A)) {
         我方攻擊()
